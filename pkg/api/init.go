@@ -19,7 +19,7 @@ func New(option Options) APIIface {
 	return API{
 		Options: option,
 		Client: http.Client{
-			Transport: MyJWTTransport{
+			Transport: &MyJWTTransport{
 				transport: http.DefaultTransport,
 				password:  option.Password,
 				loginURL:  option.LoginURL,
