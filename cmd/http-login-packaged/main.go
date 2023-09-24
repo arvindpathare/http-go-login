@@ -6,7 +6,7 @@ import (
 	"net/url"
 	"os"
 
-	"github.com/http-go-login/http-login-packaged/cmd/api"
+	"github.com/http-go-login/cmd/http-login-packaged/cmd/api"
 )
 
 func main() {
